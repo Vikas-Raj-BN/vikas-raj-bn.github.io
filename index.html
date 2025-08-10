@@ -308,39 +308,121 @@
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="container">
-    <h2 class="reveal">Projects</h2>
-    <div class="grid projects">
+<section id="projects" class="container">
+  <h2 class="reveal">Projects</h2>
+
+  <div class="grid projects">
+
+    <a href="https://github.com/Vikas-Raj-BN/Intelligent-signature-verificarion" target="_blank" class="card-link">
       <div class="card reveal">
         <h3>Intelligent Signature Verification System (HMM)</h3>
-        <p class="muted2">Verified handwritten signatures using HMMs to detect forgeries and inconsistencies.</p>
-        <div class="pillset" style="margin-top:10px">
+        <p class="muted2">
+          Verified handwritten signatures using HMMs to detect forgeries and inconsistencies.
+        </p>
+        <div class="pillset">
           <span class="pill">Python</span><span class="pill">HMM</span>
         </div>
       </div>
+    </a>
+
+    <a href="https://github.com/Vikas-Raj-BN/Groot-Chatbot" target="_blank" class="card-link">
       <div class="card reveal delay-1">
         <h3>Groot Chatbot</h3>
-        <p class="muted2">Chatbot backed by an Excel data source to answer user queries.</p>
-        <div class="pillset" style="margin-top:10px">
-          <span class="pill">Python</span>
+        <p class="muted2">
+          Chatbot backed by an Excel data source to answer user queries. Designed interactive UI for improved user experience.
+        </p>
+        <div class="pillset">
+          <span class="pill">Python</span><span class="pill">CSS</span>
         </div>
       </div>
+    </a>
+
+    <a href="https://github.com/Vikas-Raj-BN/Health-record-organizer" target="_blank" class="card-link">
       <div class="card reveal delay-2">
         <h3>Health Record Organizer</h3>
-        <p class="muted2">Web app with login, secure storage, downloading and deletion of health records.</p>
-        <div class="pillset" style="margin-top:10px">
+        <p class="muted2">
+          Web app with login, secure storage, downloading and deletion of health records.
+        </p>
+        <div class="pillset">
           <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">SQL</span>
         </div>
       </div>
+    </a>
+
+    <a href="https://github.com/Vikas-Raj-BN/Handwritten-to-text-converter" target="_blank" class="card-link">
       <div class="card reveal delay-3">
         <h3>Handwritten-to-Text Converter</h3>
-        <p class="muted2">Trained on IAM dataset to convert handwritten text into digital text using ML techniques.</p>
-        <div class="pillset" style="margin-top:10px">
+        <p class="muted2">
+          Trained on IAM dataset to convert handwritten text into digital text using ML techniques.
+        </p>
+        <div class="pillset">
           <span class="pill">Python</span><span class="pill">ML</span>
         </div>
       </div>
-    </div>
-  </section>
+    </a>
+
+  </div>
+</section>
+
+<style>
+  /* ===== Grid layout: 2 per row ===== */
+  .grid.projects {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(2, 1fr); /* exactly 2 per row */
+  }
+
+  /* Responsive: 1 per row on mobile */
+  @media (max-width: 768px) {
+    .grid.projects {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* ===== Clickable cards ===== */
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+  }
+
+  .card-link .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: var(--card-radius, 16px);
+    background: var(--glass, rgba(255,255,255,.06));
+    border: 1px solid var(--glass-border, rgba(255,255,255,.12));
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+
+  .card-link:hover .card {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+
+  /* Pill styling */
+  .pillset {
+    margin-top: 12px;
+  }
+
+  .pill {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    white-space: nowrap;
+  }
+</style>
 
   <!-- Skills -->
   <section id="skills" class="container">
@@ -445,4 +527,3 @@
 </script>
 </body>
 </html>
-
