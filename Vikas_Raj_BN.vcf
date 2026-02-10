@@ -1,12 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Vikas Raj;BN;;;
-FN:Vikas Raj BN
-TITLE:ITGC Analyst
-ORG:Wipro
-ADR;TYPE=HOME:;;Mandya;;;India
-ADR;TYPE=WORK:;;Wipro - Kodathi;;;India
-EMAIL;TYPE=INTERNET,PREF:vikasraj16@gmail.com
+N:B N;Vikas;Raj;;
+FN:Vikas Raj B N
+TITLE:IT Risk & Compliance Analyst:Wipro Ltd.
+EMAIL;TYPE=INTERNET,PREF:vikasrajbn16@gmail.com
 TEL;TYPE=CELL:+918095948825
-URL:https://www.linkedin.com/in/vikas-raj-b-n-3835ab239/
+URL;TYPE=LINKEDIN:https://www.linkedin.com/in/vikas-raj-b-n-3835ab239/
+URL;TYPE=PORTFOLIO:https://vikas-raj-bn.github.io
+ADR;TYPE=HOME:;;Mandya, Karnataka;;;;India
+NOTE:Control Owner & GRC Specialist | SQL-Driven Audit | SOC 2 & ISO 27001 | Cloud Security (Azure/AWS)
 END:VCARD
